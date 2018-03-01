@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+-(void)DownLoadImageWithImageView:(UIImageView *)imageView WithX:(CGFloat)x WithY:(CGFloat)y WithWidth:(CGFloat)width WithHeight:(CGFloat)height WithUrl:(NSString *)ImageUrl;
 
 @end
 
